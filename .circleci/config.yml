@@ -4,7 +4,7 @@ jobs:
   build:
     docker:
         - image: circleci/python:3.6.7-stretch
-        working_directory: ~/Lesson-3-Containerization
+        # working_directory: ~/Lesson-3-Containerization
     steps:
       - checkout
       - run:
